@@ -110,12 +110,15 @@ color:#ffffff;
 }
 
 .product-heading{
+    text-align:center;
+    font-size:38px;
     background-color:black;
     color:#ffffff;
     width:100%;
 }
 
 .product-container{
+    padding:30px 20px;
     display:flex;
     background-color:black;
     color:#ffffff;
@@ -124,10 +127,11 @@ color:#ffffff;
 }
 
 .product-card{
+    margin-left:20px;
     width:25%;
 }
 
 .product-card img{
-    width:25%;
-    height:100px;
+    width:200px;
+    height:200px;
 }
