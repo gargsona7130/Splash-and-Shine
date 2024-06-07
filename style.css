@@ -182,3 +182,36 @@ color:#ffffff;
     width:100%;
     height:50px;
 }
+.section5{
+    padding-left:90px;
+    padding-top: 50px;
+    display:flex;
+    background-color:black;
+    color: #ffffff;
+    width:100%;
+    height:150px;
+}
+.section51{
+    width:25%;
+}
+.section51 img{
+    width:10%;
+}
+.section52{
+    width:25%;
+}
+.section52 img{
+    width:10%;
+}
+.section53{
+    width:25%;
+}
+.section53 img{
+    width:10%;
+}
+.section54{
+    width:25%;
+}
+.section54 img{
+    width:10%;
+}
