@@ -59,6 +59,7 @@
     display:flex;
 }
 .banner img {
+    filter: blur(0.2px);
       width: 33.33%;
 }
 
@@ -110,6 +111,7 @@ color:#ffffff;
 }
 
 .product-heading{
+
     text-align:center;
     font-size:38px;
     background-color:black;
@@ -118,6 +120,7 @@ color:#ffffff;
 }
 
 .product-container{
+    font-family: "Montserrat", sans-serif;
     padding:30px 20px;
     display:flex;
     background-color:black;
@@ -134,4 +137,48 @@ color:#ffffff;
 .product-card img{
     width:200px;
     height:200px;
+}
+
+.section4{
+    margin-top:-60px;
+    height:500px;
+    display:flex;
+    width:100%;
+    background-color: black;
+    color:#ffffff;
+}
+
+.section4 img{
+    margin-left:300px;
+    margin-right:50px;
+    width:60%;
+    display:filter;
+}
+
+.section4 .h3 .transparent{
+    background-color: rgba(255,255,255,0.5);
+}
+.section4 h3{
+    filter: blur(0.2px);
+    letter-spacing:1px;
+    font-weight: 150;
+    font-family: "Montserrat", sans-serif;
+    border-radius: 6px;
+    margin-top:60px;
+    position:absolute;
+    margin-right: -200px;
+    margin-left: 40px;
+    padding: 30px 30px;
+    width:35%;
+    height:400px;
+    background-color: #d4dae2;
+    color:black;    
+}
+.cpright{
+    padding-top: 20px;
+    text-align: center;
+    background-color:black;
+    color:#ffffff;
+    width:100%;
+    height:50px;
 }
